@@ -1,0 +1,10 @@
+F:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGVWCFContract\bin\Debug\AGVWCFContract.dll
+F:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGVWCFContract\bin\Debug\AGVWCFContract.pdb
+F:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGVWCFContract\obj\Debug\AGVWCFContract.dll
+F:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGVWCFContract\obj\Debug\AGVWCFContract.pdb
+C:\Users\ZhouYong\Desktop\AGV-WPF\AGVWCFContract\bin\Debug\AGVWCFContract.dll
+C:\Users\ZhouYong\Desktop\AGV-WPF\AGVWCFContract\bin\Debug\AGVWCFContract.pdb
+C:\Users\ZhouYong\Desktop\AGV-WPF\AGVWCFContract\obj\Debug\AGVWCFContract.csprojResolveAssemblyReference.cache
+C:\Users\ZhouYong\Desktop\AGV-WPF\AGVWCFContract\obj\Debug\AGVWCFContract.dll
+C:\Users\ZhouYong\Desktop\AGV-WPF\AGVWCFContract\obj\Debug\AGVWCFContract.pdb
+F:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGVWCFContract\obj\Debug\AGVWCFContract.csprojResolveAssemblyReference.cache

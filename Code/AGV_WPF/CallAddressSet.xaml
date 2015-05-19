@@ -1,0 +1,25 @@
+﻿<Window x:Class="AGV_WPF.CallAddressSet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CallAddressSet" Height="252" Width="352" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" FontSize="16" Icon="/AGV_WPF;component/Image/setaddress_24.png" Closing="Window_Closing" Loaded="Window_Loaded">
+    <Grid>
+        <!--背景渐变-->
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" MappingMode="RelativeToBoundingBox">
+                <GradientStop Color="White"/>
+                <GradientStop Color="#FF3D95C8" Offset="1"/>
+                <GradientStop Color="White"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="旧地址:" HorizontalAlignment="Left" Margin="43,65,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="tbOldAd" HorizontalAlignment="Left" Height="23" Margin="106,70,0,0" VerticalAlignment="Top" Width="143" ToolTip="16进制"/>
+        <Label Content="新地址:" HorizontalAlignment="Left" Margin="43,110,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="tbNewAd" HorizontalAlignment="Left" Height="23" Margin="106,115,0,0" VerticalAlignment="Top" Width="143" ToolTip="16进制"/>
+        <Button Content="设置" Name="btn_Set" HorizontalAlignment="Left" Margin="65,164,0,0" VerticalAlignment="Top" Width="75" Click="btn_Set_Click" IsEnabled="False"/>
+        <Button Content="退出" HorizontalAlignment="Left" Margin="214,164,0,0" VerticalAlignment="Top" Width="75" Click="btnExit_Click"/>
+        <Label Content="叫料盒地址设置系统" HorizontalAlignment="Left" Margin="74,10,0,0" VerticalAlignment="Top" Width="206" FontSize="20" FontWeight="Bold" Foreground="#FF5C16F1"/>
+        <Label Content="*16进制" HorizontalAlignment="Left" Margin="254,70,0,0" VerticalAlignment="Top" Foreground="Red"/>
+        <Label Content="*16进制" HorizontalAlignment="Left" Margin="254,112,0,0" VerticalAlignment="Top" Foreground="Red"/>
+
+    </Grid>
+</Window>

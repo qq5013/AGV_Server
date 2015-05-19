@@ -1,0 +1,717 @@
+[2015/3/2 20:14:52]UI线程:因为持续时间过长，TimeSpan 溢出。
+[2015/3/2 20:16:00]UI线程:因为持续时间过长，TimeSpan 溢出。
+[2015/3/2 20:20:51]UI线程:因为持续时间过长，TimeSpan 溢出。
+[2015/3/2 20:21:07]UI线程:因为持续时间过长，TimeSpan 溢出。
+[2015/3/4 11:26:58]线程:System.InvalidOperationException: 调用线程必须为 STA，因为许多 UI 组件都需要。
+   在 System.Windows.Input.InputManager..ctor()
+   在 System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   在 System.Windows.Input.KeyboardNavigation..ctor()
+   在 System.Windows.FrameworkElement.FrameworkServices..ctor()
+   在 System.Windows.FrameworkElement.EnsureFrameworkServices()
+   在 System.Windows.FrameworkElement..ctor()
+   在 System.Windows.Shapes.Path..ctor()
+   在 AGV_WPF.DLL.AGV.AGVAnimation.DottedLineInit() 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVAnimation.cs:行号 123
+   在 AGV_WPF.DLL.AGV.AGVAnimation..ctor(FrameworkElement fe, ZoomableCanvas canvas) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVAnimation.cs:行号 100
+   在 AGV_WPF.DLL.AGV.AGVCar..ctor(FrameworkElement fe, ZoomableCanvas canvas) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 346
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1509
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 676
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 661
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/4 11:30:41]线程:System.InvalidOperationException: 调用线程必须为 STA，因为许多 UI 组件都需要。
+   在 System.Windows.Input.InputManager..ctor()
+   在 System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   在 System.Windows.Input.KeyboardNavigation..ctor()
+   在 System.Windows.FrameworkElement.FrameworkServices..ctor()
+   在 System.Windows.FrameworkElement.EnsureFrameworkServices()
+   在 System.Windows.FrameworkElement..ctor()
+   在 System.Windows.Shapes.Path..ctor()
+   在 AGV_WPF.DLL.AGV.AGVAnimation.DottedLineInit() 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVAnimation.cs:行号 123
+   在 AGV_WPF.DLL.AGV.AGVAnimation..ctor(FrameworkElement fe, ZoomableCanvas canvas) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVAnimation.cs:行号 100
+   在 AGV_WPF.DLL.AGV.AGVCar..ctor(FrameworkElement fe, ZoomableCanvas canvas) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 346
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1509
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 676
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 661
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/4 11:35:03]线程:System.NotSupportedException: 该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。
+   在 System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   在 System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   在 System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   在 System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   在 System.Collections.ObjectModel.Collection`1.Add(T item)
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1509
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 676
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 661
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/4 11:35:16]线程:System.NotSupportedException: 该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。
+   在 System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   在 System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   在 System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   在 System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   在 System.Collections.ObjectModel.Collection`1.Add(T item)
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1509
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 676
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 661
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/4 13:13:49]线程:System.InvalidOperationException: 调用线程无法访问此对象，因为另一个线程拥有该对象。
+   在 System.Windows.Threading.Dispatcher.VerifyAccess()
+   在 System.Windows.DependencyObject.GetValue(DependencyProperty dp)
+   在 System.Windows.Media.Animation.TimelineGroup.get_Children()
+   在 AGV_WPF.DLL.AGV.AGVAnimation.DrawCarLine(List`1 points, Brush color, Double animationtime) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVAnimation.cs:行号 311
+   在 AGV_WPF.MainWindow.MarkChangeAction(AGVCar temp1) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1341
+   在 AGV_WPF.MainWindow.WLChangeAction(AGVCar temp1) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1391
+   在 AGV_WPF.MainWindow.Dis_PropertyChange(Object sender, PropertyChangedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 989
+   在 System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   在 AGV_WPF.DLL.AGV.AGVCar.NotifyPropertyChanged(String info) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 361
+   在 AGV_WPF.DLL.AGV.AGVCar.set_WlLink(Boolean value) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 156
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1563
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 676
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 661
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/4 13:46:51]线程:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1571
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 676
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 661
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/4 13:47:09]UI线程:索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+[2015/3/4 13:47:09]线程:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1571
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 676
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 661
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/4 13:59:37]线程:System.ArgumentOutOfRangeException: 索引超出范围。必须为非负值并小于集合大小。
+参数名: index
+   在 System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   在 System.Collections.Generic.List`1.get_Item(Int32 index)
+   在 System.Collections.ObjectModel.Collection`1.get_Item(Int32 index)
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1536
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 676
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 661
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/5 12:05:56]线程:System.ServiceModel.CommunicationException: 套接字连接已中止。这可能是由于处理消息时出错或远程主机超过接收超时或者潜在的网络资源问题导致的。本地套接字超时是“00:00:59.9979999”。 ---> System.IO.IOException: 写操作失败，请参见内部异常。 ---> System.ServiceModel.CommunicationException: 套接字连接已中止。这可能是由于处理消息时出错或远程主机超过接收超时或者潜在的网络资源问题导致的。本地套接字超时是“00:00:59.9979999”。 ---> System.Net.Sockets.SocketException: 远程主机强迫关闭了一个现有的连接。
+   在 System.Net.Sockets.Socket.Send(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   在 System.ServiceModel.Channels.SocketConnection.Write(Byte[] buffer, Int32 offset, Int32 size, Boolean immediate, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.ServiceModel.Channels.SocketConnection.Write(Byte[] buffer, Int32 offset, Int32 size, Boolean immediate, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnection.WriteNow(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout, BufferManager bufferManager)
+   在 System.ServiceModel.Channels.BufferedConnection.WriteNow(Byte[] buffer, Int32 offset, Int32 size, TimeSpan timeout)
+   在 System.ServiceModel.Channels.BufferedConnection.Write(Byte[] buffer, Int32 offset, Int32 size, Boolean immediate, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ConnectionStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.Net.Security.NegotiateStream.StartWriting(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.NegotiateStream.ProcessWrite(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Net.Security.NegotiateStream.ProcessWrite(Byte[] buffer, Int32 offset, Int32 count, AsyncProtocolRequest asyncRequest)
+   在 System.Net.Security.NegotiateStream.Write(Byte[] buffer, Int32 offset, Int32 count)
+   在 System.ServiceModel.Channels.StreamConnection.Write(Byte[] buffer, Int32 offset, Int32 size, Boolean immediate, TimeSpan timeout)
+   --- 内部异常堆栈跟踪的结尾 ---
+
+Server stack trace: 
+   在 System.ServiceModel.Channels.StreamConnection.Write(Byte[] buffer, Int32 offset, Int32 size, Boolean immediate, TimeSpan timeout)
+   在 System.ServiceModel.Channels.StreamConnection.Write(Byte[] buffer, Int32 offset, Int32 size, Boolean immediate, TimeSpan timeout, BufferManager bufferManager)
+   在 System.ServiceModel.Channels.FramingDuplexSessionChannel.OnSendCore(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.TransportDuplexSessionChannel.OnSend(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.OutputChannel.Send(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Dispatcher.DuplexChannelBinder.Send(Message message, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs, TimeSpan timeout)
+   在 System.ServiceModel.Channels.ServiceChannel.Call(String action, Boolean oneway, ProxyOperationRuntime operation, Object[] ins, Object[] outs)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.InvokeService(IMethodCallMessage methodCall, ProxyOperationRuntime operation)
+   在 System.ServiceModel.Channels.ServiceChannelProxy.Invoke(IMessage message)
+
+Exception rethrown at [0]: 
+   在 System.Runtime.Remoting.Proxies.RealProxy.HandleReturnMessage(IMessage reqMsg, IMessage retMsg)
+   在 System.Runtime.Remoting.Proxies.RealProxy.PrivateInvoke(MessageData& msgData, Int32 type)
+   在 WcfDuplexMessageService.IClient.SendProperty(PropertyChangedMessage message)
+   在 AGV_WPF.MainWindow.Dis_PropertyChange(Object sender, PropertyChangedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1017
+   在 System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   在 AGV_WPF.DLL.AGV.AGVCar.NotifyPropertyChanged(String info) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 366
+   在 AGV_WPF.DLL.AGV.AGVCar.set_WlLinkCount(Byte value) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 174
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1547
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 676
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 661
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/6 0:16:00]线程:System.InvalidOperationException: 调用线程无法访问此对象，因为另一个线程拥有该对象。
+   在 System.Windows.Threading.Dispatcher.VerifyAccess()
+   在 System.Windows.DependencyObject.GetValue(DependencyProperty dp)
+   在 System.Windows.Controls.Panel.get_IsItemsHost()
+   在 System.Windows.Controls.ItemsControl.GetItemsOwnerInternal(DependencyObject element, ItemsControl& itemsControl)
+   在 System.Windows.Controls.Panel.VerifyBoundState()
+   在 System.Windows.Controls.Panel.get_InternalChildren()
+   在 System.Windows.Controls.Panel.get_Children()
+   在 AGV_WPF.DLL.AGV.AGVAnimation.ClearAllElements()
+   在 AGV_WPF.DLL.AGV.AGVCar.Finalize()
+[2015/3/6 11:16:16]线程:System.InvalidOperationException: 调用线程无法访问此对象，因为另一个线程拥有该对象。
+   在 System.Windows.Threading.Dispatcher.VerifyAccess()
+   在 System.Windows.DependencyObject.GetValue(DependencyProperty dp)
+   在 System.Windows.Controls.Panel.get_IsItemsHost()
+   在 System.Windows.Controls.ItemsControl.GetItemsOwnerInternal(DependencyObject element, ItemsControl& itemsControl)
+   在 System.Windows.Controls.Panel.VerifyBoundState()
+   在 System.Windows.Controls.Panel.get_InternalChildren()
+   在 System.Windows.Controls.Panel.get_Children()
+   在 AGV_WPF.DLL.AGV.AGVAnimation.ClearAllElements() 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVAnimation.cs:行号 431
+   在 AGV_WPF.DLL.AGV.AGVCar.Finalize() 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 351
+[2015/3/6 12:14:44]线程:System.InvalidOperationException: 序列不包含任何元素
+   在 System.Linq.Enumerable.First[TSource](IEnumerable`1 source)
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1543
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 676
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 661
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/6 15:14:12]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:13]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:13]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:13]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:14]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:14]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:14]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:15]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:15]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:15]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:16]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:16]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:16]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:17]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:17]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:17]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:18]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:18]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:18]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:19]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:19]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:20]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:20]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:20]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:21]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:21]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:21]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:22]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:22]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:22]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:23]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:23]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:23]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:24]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:24]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:24]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:25]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:25]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:26]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:26]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:26]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:27]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:27]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:27]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:28]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:28]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:28]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:29]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:29]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:29]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:30]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:30]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:30]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:31]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:31]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:31]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:32]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:32]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:32]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:33]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:33]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:33]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:34]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:34]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:34]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:35]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:35]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:35]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:36]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:36]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:37]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:38]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:38]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:39]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:39]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:39]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:40]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:40]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:40]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:41]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:41]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:41]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:42]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:42]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:42]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:43]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:43]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:44]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:44]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:44]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:45]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:45]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:46]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:46]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:46]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:47]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:47]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:47]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:48]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:48]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:48]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:49]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:49]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:49]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:50]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:50]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:50]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:51]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:51]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:52]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:52]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:52]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:53]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:53]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:53]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:54]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:54]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:54]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:55]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:55]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:56]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:56]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:56]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:57]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:57]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:58]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:58]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:58]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:59]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:59]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:14:59]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:00]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:00]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:22]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:22]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:23]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:23]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:23]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:24]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:24]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:24]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:25]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:25]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:25]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:26]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:26]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:26]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:27]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:27]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:28]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:28]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:28]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:29]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:29]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:29]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:30]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:30]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:30]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:31]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:31]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:31]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:32]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:32]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:32]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:33]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:33]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:33]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:34]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:34]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:35]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:35]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:35]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:36]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:36]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:36]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:37]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:37]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:38]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:38]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:38]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:39]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:39]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:39]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:40]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:40]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:40]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:41]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:41]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:42]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:42]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:42]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:43]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:43]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:43]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:44]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:44]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:44]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:45]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:45]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:45]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:46]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:46]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:46]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:47]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:47]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:47]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:47]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:48]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:48]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:48]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:49]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:49]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:49]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:50]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:50]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:50]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:51]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:51]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:51]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:52]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:52]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:52]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:53]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/6 15:15:53]UI线程:在“System.Windows.Markup.StaticResourceHolder”上提供值时引发了异常。
+[2015/3/7 0:19:46]UI线程:无效操作。连接被关闭。
+[2015/3/7 22:44:29]线程:System.Runtime.CallbackException: 异步回调引发了异常。 ---> System.InvalidOperationException: “http://localhost:9998/WcfDuplexMessageService”处带有协定“"IHttpGetHelpPageAndMetadataContract"”的 ChannelDispatcher 无法打开其 IchannelListener。 ---> System.InvalidOperationException: 已经存在 URI“http://localhost:9998/WcfDuplexMessageService”的注册。
+   在 System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   在 System.ServiceModel.Channels.CommunicationObject.OpenAsyncResult.End(IAsyncResult result)
+   在 System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   在 System.ServiceModel.Dispatcher.ChannelDispatcher.OnEndOpen(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   在 System.ServiceModel.Channels.CommunicationObject.OpenAsyncResult.End(IAsyncResult result)
+   在 System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   在 AGV_WPF.MainWindow.HostOpenAsync(IAsyncResult result) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1711
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.Runtime.AsyncResult.AsyncCompletionWrapperCallback(IAsyncResult result)
+   在 System.Runtime.Fx.AsyncThunk.UnhandledExceptionFrame(IAsyncResult result)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.Runtime.AsyncResult.AsyncCompletionWrapperCallback(IAsyncResult result)
+   在 System.Runtime.Fx.AsyncThunk.UnhandledExceptionFrame(IAsyncResult result)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously, Exception exception)
+   在 System.ServiceModel.OpenCollectionAsyncResult.Decrement(Boolean completedSynchronously)
+   在 System.ServiceModel.OpenCollectionAsyncResult.Decrement(Boolean completedSynchronously, Exception exception)
+   在 System.ServiceModel.OpenCollectionAsyncResult.Callback(IAsyncResult result)
+   在 System.Runtime.Fx.AsyncThunk.UnhandledExceptionFrame(IAsyncResult result)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.Runtime.AsyncResult.AsyncCompletionWrapperCallback(IAsyncResult result)
+   在 System.Runtime.Fx.AsyncThunk.UnhandledExceptionFrame(IAsyncResult result)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.Runtime.AsyncResult.AsyncCompletionWrapperCallback(IAsyncResult result)
+   在 System.Runtime.Fx.AsyncThunk.UnhandledExceptionFrame(IAsyncResult result)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously, Exception exception)
+   在 System.ServiceModel.Channels.ChainedAsyncResult.Begin1Callback(IAsyncResult result)
+   在 System.Runtime.Fx.AsyncThunk.UnhandledExceptionFrame(IAsyncResult result)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously, Exception exception)
+   在 System.ServiceModel.Channels.TransportManagerContainer.OpenOrCloseAsyncResult.OnScheduled()
+   在 System.ServiceModel.Channels.TransportManagerContainer.OpenOrCloseAsyncResult.OnScheduled(Object state)
+   在 System.Runtime.IOThreadScheduler.ScheduledOverlapped.IOCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Runtime.Fx.IOCompletionThunk.UnhandledExceptionFrame(UInt32 error, UInt32 bytesRead, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+[2015/3/7 22:47:48]线程:System.Runtime.CallbackException: 异步回调引发了异常。 ---> System.InvalidOperationException: “http://localhost:9998/WcfDuplexMessageService”处带有协定“"IHttpGetHelpPageAndMetadataContract"”的 ChannelDispatcher 无法打开其 IchannelListener。 ---> System.InvalidOperationException: 已经存在 URI“http://localhost:9998/WcfDuplexMessageService”的注册。
+   在 System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   在 System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   在 System.ServiceModel.Dispatcher.ChannelDispatcher.OnEndOpen(IAsyncResult result)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.AsyncResult.End[TAsyncResult](IAsyncResult result)
+   在 System.ServiceModel.Channels.CommunicationObject.EndOpen(IAsyncResult result)
+   在 AGV_WPF.MainWindow.HostOpenAsync(IAsyncResult result) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1711
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.Runtime.AsyncResult.AsyncCompletionWrapperCallback(IAsyncResult result)
+   在 System.Runtime.Fx.AsyncThunk.UnhandledExceptionFrame(IAsyncResult result)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.Runtime.AsyncResult.AsyncCompletionWrapperCallback(IAsyncResult result)
+   在 System.Runtime.Fx.AsyncThunk.UnhandledExceptionFrame(IAsyncResult result)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.ServiceModel.OpenCollectionAsyncResult.Decrement(Boolean completedSynchronously)
+   在 System.ServiceModel.OpenCollectionAsyncResult.Callback(IAsyncResult result)
+   在 System.Runtime.Fx.AsyncThunk.UnhandledExceptionFrame(IAsyncResult result)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.Runtime.AsyncResult.AsyncCompletionWrapperCallback(IAsyncResult result)
+   在 System.Runtime.Fx.AsyncThunk.UnhandledExceptionFrame(IAsyncResult result)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.Runtime.AsyncResult.AsyncCompletionWrapperCallback(IAsyncResult result)
+   在 System.Runtime.Fx.AsyncThunk.UnhandledExceptionFrame(IAsyncResult result)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.ServiceModel.Channels.ChainedAsyncResult.Begin1Callback(IAsyncResult result)
+   在 System.Runtime.Fx.AsyncThunk.UnhandledExceptionFrame(IAsyncResult result)
+   在 System.Runtime.AsyncResult.Complete(Boolean completedSynchronously)
+   在 System.ServiceModel.Channels.TransportManagerContainer.OpenOrCloseAsyncResult.OnScheduled()
+   在 System.ServiceModel.Channels.TransportManagerContainer.OpenOrCloseAsyncResult.OnScheduled(Object state)
+   在 System.Runtime.IOThreadScheduler.ScheduledOverlapped.IOCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* nativeOverlapped)
+   在 System.Runtime.Fx.IOCompletionThunk.UnhandledExceptionFrame(UInt32 error, UInt32 bytesRead, NativeOverlapped* nativeOverlapped)
+   在 System.Threading._IOCompletionCallback.PerformIOCompletionCallback(UInt32 errorCode, UInt32 numBytes, NativeOverlapped* pOVERLAP)
+[2015/3/8 0:22:33]线程:System.InvalidOperationException: 调用线程无法访问此对象，因为另一个线程拥有该对象。
+   在 System.Windows.Threading.Dispatcher.VerifyAccess()
+   在 System.Windows.DependencyObject.GetValue(DependencyProperty dp)
+   在 System.Windows.Media.Animation.TimelineGroup.get_Children()
+   在 AGV_WPF.DLL.AGV.AGVAnimation.DrawCarLine(List`1 points, Brush color, Double animationtime) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVAnimation.cs:行号 311
+   在 AGV_WPF.MainWindow.MarkChangeAction(AGVCar temp1) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1338
+   在 AGV_WPF.MainWindow.Dis_PropertyChange(Object sender, PropertyChangedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 981
+   在 System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   在 AGV_WPF.DLL.AGV.AGVCar.NotifyPropertyChanged(String info) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 384
+   在 AGV_WPF.DLL.AGV.AGVCar.set_MarkNum(Int32 value) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 119
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1570
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 675
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 660
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/8 11:06:50]线程:System.InvalidOperationException: 调用线程无法访问此对象，因为另一个线程拥有该对象。
+   在 System.Windows.Threading.Dispatcher.VerifyAccess()
+   在 AGV_WPF.MainWindow.WLChangeAction(AGVCar temp1) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1401
+   在 AGV_WPF.MainWindow.Dis_PropertyChange(Object sender, PropertyChangedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 989
+   在 System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   在 AGV_WPF.DLL.AGV.AGVCar.NotifyPropertyChanged(String info) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 384
+   在 AGV_WPF.DLL.AGV.AGVCar.set_WlLink(Boolean value) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 155
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1584
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 675
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 660
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/8 11:06:53]线程:System.InvalidOperationException: 调用线程无法访问此对象，因为另一个线程拥有该对象。
+   在 System.Windows.Threading.Dispatcher.VerifyAccess()
+   在 AGV_WPF.MainWindow.WLChangeAction(AGVCar temp1) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1401
+   在 AGV_WPF.MainWindow.Dis_PropertyChange(Object sender, PropertyChangedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 989
+   在 System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   在 AGV_WPF.DLL.AGV.AGVCar.NotifyPropertyChanged(String info) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 384
+   在 AGV_WPF.DLL.AGV.AGVCar.set_WlLink(Boolean value) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 155
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1584
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 675
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 660
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 AGV_WPF.MainWindow.WLChangeAction(AGVCar temp1) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1401
+   在 AGV_WPF.MainWindow.Dis_PropertyChange(Object sender, PropertyChangedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 989
+   在 System.ComponentModel.PropertyChangedEventHandler.Invoke(Object sender, PropertyChangedEventArgs e)
+   在 AGV_WPF.DLL.AGV.AGVCar.NotifyPropertyChanged(String info) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 384
+   在 AGV_WPF.DLL.AGV.AGVCar.set_WlLink(Boolean value) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 155
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1584
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 675
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 660
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/8 14:01:44]线程:System.InvalidOperationException: 调用线程必须为 STA，因为许多 UI 组件都需要。
+   在 System.Windows.Input.InputManager..ctor()
+   在 System.Windows.Input.InputManager.GetCurrentInputManagerImpl()
+   在 System.Windows.Input.KeyboardNavigation..ctor()
+   在 System.Windows.FrameworkElement.FrameworkServices..ctor()
+   在 System.Windows.FrameworkElement.EnsureFrameworkServices()
+   在 System.Windows.FrameworkElement..ctor()
+   在 System.Windows.Shapes.Path..ctor()
+   在 AGV_WPF.DLL.AGV.AGVAnimation.DottedLineInit() 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVAnimation.cs:行号 123
+   在 AGV_WPF.DLL.AGV.AGVAnimation..ctor() 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVAnimation.cs:行号 99
+   在 AGV_WPF.DLL.AGV.AGVCar..ctor() 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\DLL\AGV\AGVCar.cs:行号 363
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1531
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 677
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 662
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/8 14:05:14]线程:System.NotSupportedException: 该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。
+   在 System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   在 System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   在 System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   在 System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   在 System.Collections.ObjectModel.Collection`1.Add(T item)
+   在 AGV_WPF.MainWindow.DrvWlCon_AgvStatus(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 1531
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 677
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 f:\zhouyong\项目\AGV\珠海格力\软件最新版\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 662
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/27 22:57:03]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:03]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:03]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:03]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:06]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:06]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:07]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:07]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:08]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:08]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:11]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:11]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:13]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:13]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:17]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:17]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:18]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 22:57:18]UI线程:没有足够的内存继续执行程序。
+[2015/3/27 23:21:37]线程:System.NotSupportedException: 该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。
+   在 System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   在 System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   在 System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   在 System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   在 System.Collections.ObjectModel.Collection`1.Add(T item)
+   在 AGV_WPF.MainWindow.UpdateAGVStatus(AGVTemp agvCar) 位置 c:\Users\ZhouYong\Desktop\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 747
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 c:\Users\ZhouYong\Desktop\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 731
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\ZhouYong\Desktop\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 670
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
+[2015/3/27 23:49:55]线程:System.NotSupportedException: 该类型的 CollectionView 不支持从调度程序线程以外的线程对其 SourceCollection 进行的更改。
+   在 System.Windows.Data.CollectionView.OnCollectionChanged(Object sender, NotifyCollectionChangedEventArgs args)
+   在 System.Collections.Specialized.NotifyCollectionChangedEventHandler.Invoke(Object sender, NotifyCollectionChangedEventArgs e)
+   在 System.Collections.ObjectModel.ObservableCollection`1.OnCollectionChanged(NotifyCollectionChangedEventArgs e)
+   在 System.Collections.ObjectModel.ObservableCollection`1.InsertItem(Int32 index, T item)
+   在 System.Collections.ObjectModel.Collection`1.Add(T item)
+   在 AGV_WPF.MainWindow.UpdateAGVStatus(AGVTemp agvCar) 位置 c:\Users\ZhouYong\Desktop\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 747
+   在 AGV_WPF.MainWindow.ControlData_Processing(Byte[] buf) 位置 c:\Users\ZhouYong\Desktop\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 731
+   在 AGV_WPF.MainWindow.SPComControl_OnDataReceived(Object sender, SerialDataReceivedEventArgs e) 位置 c:\Users\ZhouYong\Desktop\AGV-WPF\AGV_WPF\MainWindow.xaml.cs:行号 670
+   在 COM.SerialPortWrapper.<.ctor>b__4(Object sender, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialPort.CatchReceivedEvents(Object src, SerialDataReceivedEventArgs e)
+   在 System.IO.Ports.SerialStream.EventLoopRunner.CallReceiveEvents(Object state)
+   在 System.Threading.QueueUserWorkItemCallback.WaitCallback_Context(Object state)
+   在 System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   在 System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   在 System.Threading.ThreadPoolWorkQueue.Dispatch()
+   在 System.Threading._ThreadPoolWaitCallback.PerformWaitCallback()
